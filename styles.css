@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Bazaar";
+  src: url("GalileoFLF.ttf");
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #788387;
+}
+
+#disclaimer {
+  font-family: sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  font-size: 10vh;
+  text-align: center;
+  color: white;
+}
+#disclaimer #hey {
+  display: none;
+  margin: auto;
+  position: absolute;
+}
+#disclaimer .black {
+  color: black;
+}
+#disclaimer .convo {
+  display: none;
+  margin: auto;
+  padding-top: 10px;
+  position: absolute;
+}
+#disclaimer #scroll {
+  display: none;
+  margin: auto;
+  position: absolute;
+}
+
+#landing {
+  width: 100%;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+h1.header-kyle {
+  font-family: "Bazaar";
+  font-weight: lighter;
+  font-size: 15vh;
+}
+
+#grey-kyle {
+  color: #939C9F;
+  opacity: 100%;
+  z-index: -1;
+}
+
+#white-kyle {
+  color: white;
+}
+
+#black-kyle {
+  color: black;
+  opacity: 100%;
+  z-index: -2;
+}
+
+#punchline {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+#punchline h1#quote1 {
+  font-size: 8vh;
+  opacity: 0;
+  -webkit-transform: translateY(-5vh);
+          transform: translateY(-5vh);
+}
+#punchline h1#quote2 {
+  text-align: center;
+  margin-top: -5vh;
+  font-size: 8vh;
+  opacity: 0;
+  -webkit-transform: translateY(5vh);
+          transform: translateY(5vh);
+}
+
+#information {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+#information #info-head {
+  font-size: 8vh;
+}
